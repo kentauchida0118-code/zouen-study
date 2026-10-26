@@ -1,0 +1,131 @@
+{
+  "lessons": [
+    {
+      "id": "L-sample-001",
+      "category": "plant",
+      "title": "（サンプル）追加レッスンの形式",
+      "level": "common",
+      "minutes": 3,
+      "purpose": "何のための知識かをここに書く。",
+      "terms": [
+        {
+          "term": "用語",
+          "reading": "ようご",
+          "meaning": "短い説明"
+        }
+      ],
+      "examples": [
+        "具体例"
+      ],
+      "pitfalls": [
+        "試験で間違えやすい点"
+      ],
+      "memo": [
+        {
+          "id": "sample-1",
+          "front": "表（問い）",
+          "back": "裏（答え）",
+          "goro": "語呂合わせ（任意）"
+        }
+      ],
+      "sources": [
+        {
+          "title": "出典の正式名称",
+          "url": "https://example.com/",
+          "checkedOn": "2026-10-22"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "Q-sample-001",
+      "grade": "common",
+      "category": "plant",
+      "difficulty": 1,
+      "stem": "（サンプル）次のうち、落葉樹はどれか。",
+      "multi": false,
+      "negative": false,
+      "choices": [
+        {
+          "id": "a",
+          "text": "イチョウ",
+          "explanation": "正しい理由をここに書く"
+        },
+        {
+          "id": "b",
+          "text": "クスノキ",
+          "explanation": "誤りである理由をここに書く"
+        }
+      ],
+      "answer": [
+        "a"
+      ],
+      "mnemonic": "覚え方・語呂合わせ（任意）",
+      "explanation": "全体の解説",
+      "lessonIds": [
+        "L-plant"
+      ],
+      "origin": "original",
+      "sources": [
+        {
+          "title": "出典の正式名称",
+          "url": "https://example.com/",
+          "checkedOn": "2026-10-22"
+        }
+      ],
+      "verification": "needs-review"
+    },
+    {
+      "id": "Q-sample-official-001",
+      "grade": "1",
+      "category": "law",
+      "difficulty": 2,
+      "stem": "（サンプル）公式過去問を自分で入力する場合の形式例。複数選択の例。",
+      "multi": true,
+      "choices": [
+        {
+          "id": "a",
+          "text": "選択肢1",
+          "explanation": "理由"
+        },
+        {
+          "id": "b",
+          "text": "選択肢2",
+          "explanation": "理由"
+        },
+        {
+          "id": "c",
+          "text": "選択肢3",
+          "explanation": "理由"
+        }
+      ],
+      "answer": [
+        "a",
+        "b"
+      ],
+      "explanation": "独自解説（公式解説ではない）",
+      "lessonIds": [],
+      "origin": "official",
+      "official": {
+        "year": "2026年度",
+        "booklet": "一級 第一次検定 問題A",
+        "number": 1,
+        "answerPublished": true,
+        "officialAnswer": [
+          "a",
+          "b"
+        ]
+      },
+      "sources": [
+        {
+          "title": "全国建設研修センター 試験問題／正答肢",
+          "url": "https://www.jctc.jp/mondai/",
+          "checkedOn": "2026-10-22"
+        }
+      ],
+      "verification": "needs-review",
+      "lawBasisDate": "2026-09-06"
+    }
+  ]
+}
