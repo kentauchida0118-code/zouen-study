@@ -1,0 +1,4 @@
+* text=auto
+*.bin binary
+*.sh eol=lf
+node_modules/.bin/** eol=lf
